@@ -1,0 +1,5 @@
+Qualtrics.SurveyEngine.addOnUnload(function()
+{
+// End of survey message that triggers the Switchboard Survey’s “Next” button
+    window.parent.postMessage('surveyCompleted', '*');
+});

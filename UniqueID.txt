@@ -1,0 +1,6 @@
+Qualtrics.SurveyEngine.addOnload(function() {
+ // Generates a random number 5 digits long
+    var randomNumber = Math.floor(10000 + Math.random() * 90000);
+ // Sets the value of the random number to the UniqueID embedded data field
+    Qualtrics.SurveyEngine.setEmbeddedData('UniqueID', randomNumber);
+});
