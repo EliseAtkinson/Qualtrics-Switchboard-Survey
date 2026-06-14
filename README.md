@@ -126,4 +126,3 @@ Endpoint Surveys are standard Qualtrics surveys embedded into the Switchboard Su
 
 If you use the Switchboard Survey in your research, please cite:
 Atkinson, E., et al. The Switchboard Survey: The Solution to Tracking Personal Links Across Qualtrics Surveys. (Manuscript in review).
-* Confirm all Endpoint Surveys have been published after code changes.
