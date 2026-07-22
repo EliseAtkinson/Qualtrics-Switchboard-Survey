@@ -11,16 +11,23 @@ The Switchboard Survey is a Qualtrics-based system that allows researchers to co
 Generating a unique participant identifier (UniqueID).
 
 Embedding one or more Qualtrics surveys (Endpoint Surveys) using iframes.
+
 Passing the UniqueID to each Endpoint Survey through URL parameters.
+
 Storing data separately within each Endpoint Survey.
+
 Allowing researchers to merge datasets later using the shared UniqueID.
 
 # This approach enables:
 
 Longitudinal studies
+
 Pre/post intervention studies
+
 Multi-participant household studies
+
 Screening and recruitment workflows
+
 Separation of identifying information from survey responses
 
 # How It Works
