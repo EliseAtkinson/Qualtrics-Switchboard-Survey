@@ -1,6 +1,6 @@
 # Qualtrics Switchboard Survey
 
-A Qualtrics framework for linking multiple surveys through a single anonymous survey link while preserving participant confidentiality.
+A Qualtrics framework for linking multiple surveys through a single anonymous survey link while preserving participant confidentiality. Download the template Qualtrics files (.qsf) and try it out yourself!
 
 # Overview
 
@@ -48,11 +48,11 @@ Endpoint Surveys are standard Qualtrics surveys embedded into the Switchboard Su
 
 ## Step 2: Generate a UniqueID
 
-* Create a question in the Switchboard Survey.
+* In your first question in the Switchboard Survey.
 * Open the question's **JavaScript Editor**.
 * Paste the UniqueID generation JavaScript.
 * Save the code.
-* Ensure the respondent must advance to the next page before any Endpoint Survey loads.
+* As the UniqueID cannot be passed in the same page as it is generated you must have multiple pages in your survey.
 
 ## Step 3: Obtain Endpoint Survey Links
 
@@ -65,10 +65,10 @@ Endpoint Surveys are standard Qualtrics surveys embedded into the Switchboard Su
 ## Step 4: Embed the First Endpoint Survey
 
 * Add a **Text/Graphic** question to the Switchboard Survey.
-* Open **HTML View**.
+* Open **HTML View**. Note: You must always edit these questions in HTML View. Editing them in the normal Rich Text Editor will cause the HTML to truncate, losing it's functionality.
 * Paste the iframe template.
 * Replace "PASTE LINK HERE" with the Endpoint Survey anonymous link.
-* Confirm that the URL contains:
+* Confirm that the URL is followed by:
 
   * `?UniqueID=${e://Field/UniqueID}`
 
