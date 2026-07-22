@@ -91,14 +91,14 @@ Endpoint Surveys are standard Qualtrics surveys embedded into the Switchboard Su
 
 ### For Different Respondent Types
 
-* Create a configuration question (e.g., age group, participant role, password).
+* Create a question that determines respondent type (e.g., age group, participant role, password).
 * Use **Survey Flow Branch Logic** to display the appropriate Endpoint Surveys.
 
 ### For Repeated Surveys
 
-* Create a configuration question that determines the number of repetitions.
+* Create a question that determines the number of repetitions.
 * Enable **Loop & Merge** on the Endpoint Survey block.
-* Configure loops using the configuration question.
+* Configure loops using the question.
 
 ## Step 8: Test the Survey
 
